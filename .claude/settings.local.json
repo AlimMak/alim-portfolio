@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir:*)",
+      "Bash(git ls-tree:*)",
+      "Bash(git rev-parse:*)",
+      "Bash(cat:*)",
+      "Bash(git -C \"C:\\\\Users\\\\alimm\\\\OneDrive\\\\Desktop\\\\Projects\\\\pfolio\" log --oneline -10)",
+      "Bash(git -C \"C:\\\\Users\\\\alimm\\\\OneDrive\\\\Desktop\\\\Projects\\\\pfolio\" status)",
+      "Bash(git -C:*)",
+      "Bash(npx create-next-app@latest . --typescript --tailwind --app --no-src-dir)",
+      "Bash(del index.html)",
+      "Bash(npm install:*)",
+      "Bash(npm run build:*)",
+      "Bash(npm run dev:*)"
+    ]
+  }
+}
