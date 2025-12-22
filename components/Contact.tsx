@@ -54,7 +54,6 @@ export function Contact() {
               <span>alimmak04@gmail.com</span>
             </a>
 
-            {/* UPDATE: Replace with your actual email */}
             <p className="text-sm text-muted-foreground">
               Feel free to reach out for opportunities, collaborations, or just
               to connect.
