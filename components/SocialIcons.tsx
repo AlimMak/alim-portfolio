@@ -1,4 +1,4 @@
-import { SiGithub, SiLinkedin, SiLeetcode } from "react-icons/si";
+import { SiGithub, SiLinkedin, SiLeetcode, SiYoutube } from "react-icons/si";
 
 const socialLinks = [
   {
@@ -12,6 +12,11 @@ const socialLinks = [
     url: "https://www.linkedin.com/in/alimmak04/",
   },
   {
+    name: "YouTube",
+    icon: SiYoutube,
+    url: "https://youtube.com", // UPDATE: Replace with your actual YouTube channel URL
+  },
+  {
     name: "LeetCode",
     icon: SiLeetcode,
     url: "https://leetcode.com/u/AlimMaknojia/",
@@ -20,7 +25,7 @@ const socialLinks = [
 
 export function SocialIcons() {
   return (
-    <div className="flex items-center gap-4">
+    <div className="flex items-center gap-6">
       {socialLinks.map((social) => {
         const Icon = social.icon;
         return (
@@ -29,11 +34,11 @@ export function SocialIcons() {
             href={social.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-muted-foreground hover:text-primary transition-fast"
+            className="text-muted-foreground hover:text-primary transition-fast hover:scale-110"
             aria-label={social.name}
             title={social.name}
           >
-            <Icon className="w-5 h-5" />
+            <Icon className="w-10 h-10" />
           </a>
         );
       })}
