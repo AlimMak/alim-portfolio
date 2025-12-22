@@ -20,7 +20,7 @@ export function ProjectCard({
 }: ProjectCardProps) {
   return (
     <motion.div
-      className="group relative border border-border rounded-lg p-6 bg-card hover:border-primary transition-snappy glow-on-hover corner-accent overflow-hidden"
+      className="group relative border border-border rounded-lg p-6 bg-card hover:border-primary transition-snappy glow-on-hover overflow-hidden"
       whileHover={{ y: -4, scale: 1.01 }}
       transition={{
         type: "spring",
