@@ -14,7 +14,7 @@ const socialLinks = [
   {
     name: "YouTube",
     icon: SiYoutube,
-    url: "https://youtube.com", // UPDATE: Replace with your actual YouTube channel URL
+    url: "https://youtube.com", 
   },
   {
     name: "LeetCode",

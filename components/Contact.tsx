@@ -47,11 +47,11 @@ export function Contact() {
 
             {/* Email link */}
             <a
-              href="mailto:alim.maknojia@example.com"
+              href="mailto:alimmak04@gmail.com"
               className="inline-flex items-center gap-3 text-2xl sm:text-3xl font-bold hover:text-primary transition-fast group"
             >
               <Mail className="w-8 h-8 group-hover:scale-110 transition-snappy" />
-              <span>alim.maknojia@example.com</span>
+              <span>alimmak04@gmail.com</span>
             </a>
 
             {/* UPDATE: Replace with your actual email */}
