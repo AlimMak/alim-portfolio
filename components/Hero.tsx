@@ -90,7 +90,7 @@ export function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.4, ease: "easeOut", delay: 0.1 }}
           >
-            CS Senior • Data Science & ML • University of Houston
+            CS Senior • University of Houston
           </motion.p>
 
           <motion.p
@@ -99,7 +99,7 @@ export function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.4, ease: "easeOut", delay: 0.2 }}
           >
-            Building intelligent systems with precision and purpose
+            Delusional Optimism
           </motion.p>
 
           <motion.div

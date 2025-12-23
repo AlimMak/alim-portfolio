@@ -110,13 +110,10 @@ export function About() {
             transition={{ duration: 0.4, delay: 0.2 }}
           >
             <p className="text-lg text-foreground leading-relaxed">
-              CS senior at the University of Houston specializing in data
-              science and machine learning. Experienced in building intelligent
-              systems and scalable software solutions.
+              CS @ University of Houston
             </p>
             <p className="text-lg text-foreground leading-relaxed">
-              Graduating soon and actively seeking opportunities in ML
-              engineering and software development.
+              Graduating soon and actively seeking opportunities.
             </p>
           </motion.div>
         </div>

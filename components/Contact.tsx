@@ -10,7 +10,7 @@ export function Contact() {
   const isInView = useInView(ref, { once: false, margin: "-100px" });
 
   return (
-    <section id="contact" className="py-24 sm:py-32 relative overflow-hidden" ref={ref}>
+    <section id="contact" className="py-32 sm:py-48 min-h-screen flex items-center relative overflow-hidden" ref={ref}>
       {/* Red glow accents */}
       <div className="absolute top-1/2 left-0 w-80 h-80 bg-primary/10 rounded-full blur-3xl -translate-y-1/2" />
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
